@@ -18,6 +18,12 @@ const Formulario = (props) => {
             imagem,
             time
         });
+        console.log("entrou para limpar");
+        setNome("");
+        setCargo("");
+        setImagem("");
+        setTime("");
+        console.log("saiu para limpar");
     }
 
     return (
